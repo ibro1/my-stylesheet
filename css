@@ -1,0 +1,523 @@
+
+
+body{
+
+  }
+#header-inner{
+background-color:white;
+  }
+
+#header-inner img{
+width:auto;
+max-height:70px;
+padding:5px 0 0 5px;
+}
+@media only screen and (max-width:480px){
+#header-inner img{
+      max-width:200px;
+    }
+    }
+
+
+/* Recent posts by labels
+--------------------------------- */ 
+img.label_thumb{
+float:left;
+margin-right:10px !important;
+height:65px; /* Thumbnail height */
+width:65px; /* Thumbnail width */
+/*border: 1px solid #fff;*/
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+/*-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+box-shadow: 0 1px 1px rgba(0, 0, 0, .4);*/
+}
+
+#label_with_thumbs {
+float: left;
+width: 100%;
+min-height: 70px;
+margin: 0px 10px 2px 0px;
+padding: 0;
+}
+ul#label_with_thumbs li {
+padding:8px 0;
+min-height:65px;
+margin-bottom:0px;
+border-bottom:1px dotted grey;
+}
+
+#label_with_thumbs li{
+list-style: none ;
+padding-left:0px !important;
+}
+
+#label_with_thumbs a { text-transform: uppercase;}
+#label_with_thumbs strong {padding-left:0px; }
+h2.date-header{
+display:none;
+border-radius:3px;
+  }
+/*label with thumb end*/
+
+div#mypost.main.section{
+background-color:#fff;
+
+border-radius: 3px;
+/*box-shadow: 0px 0px 5px 0px;*/
+margin-right:; 
+}
+li.clearfix{
+margin-left:10px;
+  }
+
+div#diy.main.section{
+background-color:#fff;
+/*box-shadow: 0px 0px 5px 0px;*/
+border-bottom:1px solid green;
+margin-right:; 
+margin-top:0px;
+}
+
+
+  a.home-link{
+display:none;
+  }
+  
+  
+.blog-pager-older-link{
+float:right;
+border:1px solid#e5e5e5;
+text-transform:uppercase;
+font-size:16px;
+}
+.blog-pager-newer-link{
+
+border:1px solid#e5e5e5;
+text-transform:uppercase;
+font-size:16px;
+
+}
+
+
+.status-msg-hidden{
+display:none;
+}
+.feed-links{
+display:none;
+  }
+.content-wrapper{
+min-height:100%;
+
+  }
+div#comments.comments a{
+border:2px;
+border-radius:5px;
+}
+.col-md-{
+
+ width:51.3333%;
+  }
+ h2.title{
+    color: #FEFAFA;
+    background: none repeat scroll 0% 0% #527C5F !important;
+    position: relative;
+    margin-bottom: 0px;
+    top: -7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-top: 5px;
+    text-transform: ;
+}
+
+
+.post-labels{
+display:none;
+}
+#comment-holder{
+
+
+}
+.comment-thread{
+
+}
+.comment-content{
+
+margin-left:0px;
+
+}
+
+
+.author-info, .time-info, .comment-info, .label-info, .review-info {
+margin-right:12px;
+display:inline;
+}
+content: &quot;\f073&quot;;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+padding-right:4px;
+}
+
+div.col-md-7{
+    border: 1px solid #D6D6D6;
+    background: none repeat scroll 0% 0% #FFF;
+}
+
+
+div.breadcrumbs{
+
+    border-bottom: 1px solid #DDD;
+    border-radius: 2px;
+    border-top: 1px solid #DDD;
+    font-size: 90%;
+    height: 22px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    overflow: hidden;
+    padding: 0px;
+
+  }
+  
+  
+.breadcrumbs &gt; span {
+    background: url(&quot;http://1.bp.blogspot.com/-VaJX0ShxH6c/TeUGQ0IGOWI/AAAAAAAAJGo/Qw7sIjc5MrQ/s200/bc_separator.png&quot;) no-repeat scroll right center transparent;
+    padding: 10px 25px 10px 10px;
+}
+
+#back-to-top{
+    background: none repeat scroll 0% 0% #353738;
+    color: #FFF;
+    padding: 8px 10px;
+    font-size: 24px;
+}
+div#share-post{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+ /* Small Mobiles */
+@media only screen and (max-width : 320px) {
+/* The following css will be rendered if device width is less than 320px */
+
+}
+
+
+
+.back-to-top {
+position:fixed !important;
+position:absolute;
+bottom:20px;}
+.share-buttons-box {
+height: 67px;
+background: url(http://3.bp.blogspot.com/-moj4-jk-UB0/U1qCkCPaGQI/AAAAAAAADTY/tixmak8NHV8/s1600/share.png) no-repeat 330px 10px;
+margin:20px 0 15px;
+overflow:hidden;
+}
+.share-buttons {
+margin:0 0;
+height:67px;
+float:left;
+}
+.share-buttons .share {
+float:left;
+margin-right:10px;
+display:inline-block;
+}
+  /* facebook comments */
+
+.fb-comments{width: 100% !important;}
+.fb-comments iframe[style]{width: 100% !important;}
+.fb-like-box{width: 100% !important;}
+.fb-like-box iframe[style]{width: 100% !important;}
+.fb-comments span{width: 100% !important;}
+.fb-comments iframe span[style]{width: 100% !important;}
+.fb-like-box span{width: 100% !important;}
+.fb-like-box iframe span[style]{width: 100% !important;
+}
+.rich-snippet {
+padding:10px;
+margin:15px 0 0;
+border:3px solid #eee;
+font-size:12px;
+}
+  
+  /*** Share Post Styling ***/
+#share-post {
+width: 100%;
+overflow: hidden;
+6 20px;
+}
+#share-post a {
+display: block;
+height: 32px;
+line-height: 32px;
+color: #fff;
+float: left;
+padding-right: 10px;
+margin-right: 10px;
+margin-bottom: 25px;
+}
+
+#share-post
+.facebook {
+background-color: #436FC9;
+}
+#share-post
+.twitter {
+background-color: #40BEF4;
+}
+#share-post
+.google {
+background-color: #EC5F4A;
+}
+#share-post
+span {
+display: block;
+width: 32px;
+height: 32px;
+float: left;
+margin-right: 10px;
+background: url(http://4.bp.blogspot.com/-M_utSb-nN04/U6V8Gut9dJI/AAAAAAAAAjE/6g1X58pjjcg/s1600/single-share.png) no-repeat;
+}
+#share-post
+.facebook span {
+background-color: #3967C6;
+}
+#share-post
+.twitter span {
+background-color: #26B5F2;
+background-position: -72px 0;
+}
+#share-post
+.google span {
+background-color: #E94D36;
+background-position: -144px 0;
+}
+  
+  
+/* Tablets (Landscape) */
+@media only screen and (max-width : 1024px) {
+/* The following css will be rendered if device width is less than 1024px */
+
+}
+
+/* Tablets (Portrait) */
+@media only screen and (max-width : 768px) {
+/* The following css will be rendered if device width is less than 768px */
+
+}
+
+/* iPhones */
+@media only screen and (max-width : 640px) {
+/* The following css will be rendered if device width is less than 640px */
+
+}
+
+
+/* Mobiles */
+@media only screen and (max-width : 480px) {
+/* The following css will be rendered if device width is less than 480px */
+.footer1{
+text-align:center;
+    }
+#singglepage{
+
+    width:200px;
+
+padding-left:10px;
+
+}
+
+
+
+right:20px;
+z-index:999;
+}
+  
+
+
+
+
+/* share buttons */
+.share-buttons-box {
+height: 67px;
+background: url(http://3.bp.blogspot.com/-moj4-jk-UB0/U1qCkCPaGQI/AAAAAAAADTY/tixmak8NHV8/s1600/share.png) no-repeat 330px 10px;
+margin:20px 0 15px;
+overflow:hidden;
+}
+.share-buttons {
+margin:0 0;
+height:67px;
+float:left;
+}
+.share-buttons .share {
+float:left;
+margin-right:10px;
+display:inline-block;
+}
+  /* facebook comments */
+
+.fb-comments{width: 100% !important;}
+.fb-comments iframe[style]{width: 100% !important;}
+.fb-like-box{width: 100% !important;}
+.fb-like-box iframe[style]{width: 100% !important;}
+.fb-comments span{width: 100% !important;}
+.fb-comments iframe span[style]{width: 100% !important;}
+.fb-like-box span{width: 100% !important;}
+.fb-like-box iframe span[style]{width: 100% !important;
+}
+.rich-snippet {
+padding:10px;
+margin:15px 0 0;
+border:3px solid #eee;
+font-size:12px;
+}
+  
+  /*** Share Post Styling ***/
+#sha
+#share-post a {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.comments .comment-block {
+    position: relative;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 15px;
+    margin-left: 60px;
+    border-left: 3px solid #DDD;
+    border-width: 1px 1px 1px 3px;
+    border-style: solid;
+    border-color: #DDD;
+}
+
+
+.comments{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.content-outer, .header-outer, .tabs-outer, .main-outer, .main-inner, .footer-outer, .post, .comments, .widget, .date-header, .inline-ad {
+    position: relative;
+    min-height: 0px;
+}
+
+div#u-0-1.fbFeedbackContent{
+width:100%;
+
+}
+span.label-info{
+background-color:transparent;
+}
+div#top-comment{
+margin-top:70px;
+}
+
+.comments .comments-content .comment-thread ol {
+    list-style-type: none;
+}
+
+
+.post-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.comments .comment-block {
+    position: relative;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 15px;
+    margin-left: 60px;
+    border-left: 3px solid #DDD;
+    border-width: 1px 1px 1px 3px;
+    border-style: solid;
+    border-color: #DDD;
+}
+
+
+.comments .comments-content .comment:first-child {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+   {
+    border: 1px solid #D6D6D6;
+    background: none repeat scroll 0% 0% #FFF;
+  }
+
+
+.comments .comments-content .inline-thread {
+    background: none repeat scroll 0% 0% #FFF;
+    border: 1px solid #DDD;
+    padding: 15px;
+    margin: 0px;
+}
+
+div.avatar-image-container img {
+    max-width: 36px;
+}
+
+.comments .thread-expanded .thread-arrow {
+    background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVR42mNgwAfKy8v/48I4FeA0AacVDFQBAP9wJkE/KhUMAAAAAElFTkSuQmCC&quot;) no-repeat scroll 0px 0px transparent;
+}
+.comments .thread-.comments .thread-toggle .thread-arrow {
+    display: inline-block;
+    height: 6px;
+    margin: 0.3em;
+    overflow: visible;
+    padding-right: 4px;
+    width: 7px;
+}
+
+/* Laptops and Desktops */
+@media only screen and (max-width : 1280px) {
+/* The following css will be rendered if device width is less than 1280px */
+
+}
+
+#share-post .twitter {
+    background-color: #40BEF4;
+}
+
+#share-post .google {
+    background-color: #EC5F4A;
+}
+
+  /* back to top */
+#back-to-top {
+background:red;
+color:black;
+padding:30px 10px;
+font-size:24px;
+}
+.back-to-top {
+position:fixed !important;
+position:absolute;
+bottom:20px;
+right:20px;
+z-index:999;
+}
+  
+
+#share-post .facebook {
+    background-color: #436FC9;
+} 
+
+
+
